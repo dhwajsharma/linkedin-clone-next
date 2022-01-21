@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="">
       <Head>
-        <title>Linkedin</title>
+        <title>LinkedIn</title>
       </Head>
 
       <main className=""></main>
