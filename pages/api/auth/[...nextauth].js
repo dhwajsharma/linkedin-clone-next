@@ -12,4 +12,10 @@ export default NextAuth({
   ],
   secret: process.env.JWT_SECRET,
   adapter: MongoDBAdapter(clientPromise),
+  pages: {
+    signIn: "/home",
+  },
+  session: {
+    strategy: "jwt",
+  },
 });
